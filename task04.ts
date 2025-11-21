@@ -7,14 +7,37 @@
 // TODO BONUS: Rewrite with if
 
 let num = 0;
-if(num === 0){
+
+
+const fizzBuzz = (number:number) => {
+if(Number === 0){
   console.log("Zero is not acceptable.")
-} else if ((num % 3 === 0) && (num % 5 === 0)) {
-  console.log(`Your number:${num} is "FizzBuzz".`);
-} else if ((num % 3 === 0) ) {
-    console.log(`Your number:${num} is "Fizz".`);
-} else if ((num % 5 === 0) ) {
-    console.log(`Your number:${num} is "Buzz".`);
+} else if ((number % 3 === 0) && (number % 5 === 0)) {
+  console.log(`Your number:${number} is "FizzBuzz".`);
+} else if ((number % 3 === 0) ) {
+    console.log(`Your number:${number} is "Fizz".`);
+} else if ((number % 5 === 0) ) {
+    console.log(`Your number:${number} is "Buzz".`);
 } else {
   console.log("Not divisible by 3 or 5");
 }
+}
+fizzBuzz(15)
+
+const fizzBuzz2 = fizzBuzz
+fizzBuzz2(12)
+
+fizzBuzz(1)
+fizzBuzz(2)
+fizzBuzz(3)
+fizzBuzz(4)
+fizzBuzz(5)
+fizzBuzz(6)
+fizzBuzz(7)
+fizzBuzz(8)
+fizzBuzz(9)
+fizzBuzz(10)
+fizzBuzz2(15)
+
+
+
